@@ -54,21 +54,27 @@ h2{
 margin-left: 655px;
 }
 table{
-  margin-left:325px;
+  margin-left:250px;
 }
 .placecard1{
-  padding: 80px;
-background-color: #ccffbd;
+  padding: 100px;
+  border: 20px solid orange;
+width: 100px;
+ background-color: orange;
 }
 
 .placecard2{
-  padding: 80px;
-background-color: #f2a154;
+  border: 20px solid white;
+  padding: 100px;
+  width: 100px;
+background-color: #ffff;
 }
 
 .placecard3{
-  padding: 80px;
-background-color: #ffdcb8;
+  border: 20px solid green;
+  padding: 100px;
+  width: 100px;
+background-color: green;
 }
 
 </style>
