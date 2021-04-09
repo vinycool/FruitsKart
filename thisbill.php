@@ -37,6 +37,10 @@ th {
   background-color: black;
   color: white;
 }
+      
+.tbody{
+  background-color: white;
+}
 
     </style>
   </head>
@@ -51,7 +55,7 @@ th {
     <p>Bill no. <?php echo $_SESSION['ooo']; ?></p>
     <p>Date <?php echo  date("d/m/Y")?></p>
     <p style="position: absolute;
-  right: 230px;top: 405px;" >Time <?php date_default_timezone_set('Asia/Kolkata');
+  right: 230px;top: 525px;" >Time <?php date_default_timezone_set('Asia/Kolkata');
 echo date("h:i:sa"); ?></p>
     <hr>
 
